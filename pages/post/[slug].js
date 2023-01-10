@@ -2,6 +2,8 @@ import React from 'react'
 import {  getPosts,getPostDetails } from '../../services'
 import { PostDetail,Categories,PostWidget,Comments,Author,CommentsForm } from "../../components";
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/router';
+import Loader from '../../components';
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -10,6 +12,11 @@ const variants = {
 }
 
 const PostDetails = ({post}) => {
+  const router = useRouter();
+
+  if(router.isFallback){
+    return <Loader/>
+  }
   return (
     <motion.main
     variants={variants} // Pass the variant object into Framer Motion 
