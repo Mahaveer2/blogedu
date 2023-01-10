@@ -16,6 +16,8 @@ useEffect(() => {
         <Head>
           <title>Pak Edu</title>
         </Head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9486411437483012"
+     crossorigin="anonymous"></script>
         <div className='md:float-left block'>
           <Link href="/">
             <span className='cursor-pointer font-bold text-4xl text-white'>
