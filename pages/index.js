@@ -8,6 +8,7 @@ const Home = ({posts}) => {
   return (
     <div className="container mx-auto px-10 mb-8 ">
       <Head>
+      <meta name="google-site-verification" content="sIb_6pn3SEuVd-r3vJnNpuHXaq4l7FVxU_5I35LE5_k" />
         <title>EduPak</title>
         <link rel="icon" href="/logo.png" />
       </Head>

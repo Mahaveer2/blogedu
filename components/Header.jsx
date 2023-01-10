@@ -14,6 +14,7 @@ useEffect(() => {
     <div className='container mx-auto px-10 mb-8'>
       <div className='border-b w-full inline-block border-blue-400 py-8'>
         <Head>
+          <meta name="google-site-verification" content="sIb_6pn3SEuVd-r3vJnNpuHXaq4l7FVxU_5I35LE5_k" />
           <title>Pak Edu</title>
         </Head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9486411437483012"
